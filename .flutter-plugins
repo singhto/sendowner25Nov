@@ -1,0 +1,25 @@
+# This is a generated file; do not edit or check into version control.
+firebase_messaging=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_messaging-6.0.16/
+flutter_plugin_android_lifecycle=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/
+fluttertoast=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-4.0.1/
+google_maps_flutter=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.29/
+location=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/location-3.0.2/
+location_web=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/location_web-1.0.0/
+path_provider=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.18/
+path_provider_linux=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_macos=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+4/
+path_provider_windows=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/path_provider_windows-0.0.4+1/
+screen=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/screen-0.0.5/
+shared_preferences=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.5.8/
+shared_preferences_linux=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_linux-0.0.2+2/
+shared_preferences_macos=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_macos-0.0.1+10/
+shared_preferences_web=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences_web-0.1.2+7/
+sqflite=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/sqflite-1.3.1+1/
+url_launcher=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.5.0/
+url_launcher_linux=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+1/
+url_launcher_macos=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+8/
+url_launcher_web=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.4+1/
+video_player=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/video_player-0.10.12+5/
+video_player_web=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/video_player_web-0.1.4/
+wakelock=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/wakelock-0.1.4+2/
+webview_flutter=/Users/singhto/flutter/.pub-cache/hosted/pub.dartlang.org/webview_flutter-0.3.24/

@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "194776053353",
+    "firebase_url": "https://send-13a27.firebaseio.com",
+    "project_id": "send-13a27",
+    "storage_bucket": "send-13a27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194776053353:android:efa45208ed385c1beb14f8",
+        "android_client_info": {
+          "package_name": "com.movehubs.foodlion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194776053353-fldoctac5d5r9ordlrdlsu408clcpakf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1H231TYyykVVYnkG4bI4r0lN0cqGCvyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194776053353-fldoctac5d5r9ordlrdlsu408clcpakf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194776053353:android:dee72c8aad01c9b5eb14f8",
+        "android_client_info": {
+          "package_name": "com.movehubs.senddriv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194776053353-fldoctac5d5r9ordlrdlsu408clcpakf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1H231TYyykVVYnkG4bI4r0lN0cqGCvyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194776053353-fldoctac5d5r9ordlrdlsu408clcpakf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194776053353:android:dac5338e7fe3ad51eb14f8",
+        "android_client_info": {
+          "package_name": "com.movehubs.sendowner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194776053353-fldoctac5d5r9ordlrdlsu408clcpakf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1H231TYyykVVYnkG4bI4r0lN0cqGCvyM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "194776053353-fldoctac5d5r9ordlrdlsu408clcpakf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
