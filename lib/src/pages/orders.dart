@@ -52,13 +52,19 @@ class _OrdersWidgetState extends StateMVC<OrdersWidget> {
           valueListenable: settingsRepo.setting,
           builder: (context, value, child) {
             return Text(
-              value.appName ?? S.of(context).home,
-              style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 1.3)),
+              //value.appName ?? S.of(context).home,
+              'SENDshop',
+              style: Theme.of(context)
+                  .textTheme
+                  .headline6
+                  .merge(TextStyle(letterSpacing: 1.3)),
             );
           },
         ),
         actions: <Widget>[
-          new ShoppingCartButtonWidget(iconColor: Theme.of(context).hintColor, labelColor: Theme.of(context).accentColor),
+          new ShoppingCartButtonWidget(
+              iconColor: Theme.of(context).hintColor,
+              labelColor: Theme.of(context).accentColor),
         ],
       ),
       body: RefreshIndicator(
@@ -76,19 +82,30 @@ class _OrdersWidgetState extends StateMVC<OrdersWidget> {
                           primary: false,
                           shrinkWrap: true,
                           scrollDirection: Axis.horizontal,
-                          children: List.generate(_con.orderStatuses.length, (index) {
+                          children:
+                              List.generate(_con.orderStatuses.length, (index) {
                             var _status = _con.orderStatuses.elementAt(index);
-                            var _selected = _con.selectedStatuses.contains(_status.id);
+                            var _selected =
+                                _con.selectedStatuses.contains(_status.id);
                             return Padding(
-                              padding: const EdgeInsetsDirectional.only(start: 20),
+                              padding:
+                                  const EdgeInsetsDirectional.only(start: 20),
                               child: RawChip(
                                 elevation: 0,
                                 label: Text(_status.status),
                                 labelStyle: _selected
-                                    ? Theme.of(context).textTheme.bodyText2.merge(TextStyle(color: Theme.of(context).primaryColor))
+                                    ? Theme.of(context)
+                                        .textTheme
+                                        .bodyText2
+                                        .merge(TextStyle(
+                                            color:
+                                                Theme.of(context).primaryColor))
                                     : Theme.of(context).textTheme.bodyText2,
-                                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 15),
-                                backgroundColor: Theme.of(context).focusColor.withOpacity(0.1),
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 12, vertical: 15),
+                                backgroundColor: Theme.of(context)
+                                    .focusColor
+                                    .withOpacity(0.1),
                                 selectedColor: Theme.of(context).accentColor,
                                 selected: _selected,
                                 //shape: StadiumBorder(side: BorderSide(color: Theme.of(context).focusColor.withOpacity(0.05))),
@@ -98,12 +115,14 @@ class _OrdersWidgetState extends StateMVC<OrdersWidget> {
                                     if (_status.id == '0') {
                                       _con.selectedStatuses = ['0'];
                                     } else {
-                                      _con.selectedStatuses.removeWhere((element) => element == '0');
+                                      _con.selectedStatuses.removeWhere(
+                                          (element) => element == '0');
                                     }
                                     if (value) {
                                       _con.selectedStatuses.add(_status.id);
                                     } else {
-                                      _con.selectedStatuses.removeWhere((element) => element == _status.id);
+                                      _con.selectedStatuses.removeWhere(
+                                          (element) => element == _status.id);
                                     }
                                     _con.selectStatus(_con.selectedStatuses);
                                   });
